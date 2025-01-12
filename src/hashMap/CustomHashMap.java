@@ -1,4 +1,16 @@
 package hashMap;
+/*
+Key Points To Remember:
+
+HashMap insertion and retrieval takes O(1) time complexity.
+HashMap stores values in key-value pairs.
+Each key-value pair is stored in Entry<K,V> object.
+Every Entry object is stored in array named table[] as per calculated index.
+Index is calculated on the basis of Hash code of the key and length of table[] array.
+For null key, hash value is reserved to be 0.
+Default Capacity of HashMap is 16.
+Default Load Factor is 0.75
+ */
 
 public class CustomHashMap<K,V>{
 
